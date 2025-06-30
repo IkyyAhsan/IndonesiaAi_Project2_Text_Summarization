@@ -37,11 +37,11 @@ Training Epoch 100% | 2625/2625 [04:34<00:00, 9.56it/s]
 Training loss: 0.0003
 
 ## Model Evaluation
-ROUGE-1 F-measure: 1.0000
-ROUGE-2 F-measure: 1.0000
-ROUGE-L F-measure: 1.0000
-BERTScore Precision: 1.0000
-BERTScore Recall: 1.0000
-BERTScore F1: 1.0000
+- ROUGE-1 F-measure: 1.0000
+- ROUGE-2 F-measure: 1.0000
+- ROUGE-L F-measure: 1.0000
+- BERTScore Precision: 1.0000
+- BERTScore Recall: 1.0000
+- BERTScore F1: 1.0000
 
 Model ini mencapai kinerja yang sangat baik pada ROUGE dan BERTScore, dengan skor sempurna di semua aspek. Penggunaan ukuran batch yang kecil dan presisi campuran (fp16) untuk pelatihan secara signifikan mengurangi waktu pelatihan sambil mempertahankan kinerja yang tinggi. Model ini sekarang siap digunakan dalam tugas-tugas ringkasan ekstraktif di dunia nyata.
